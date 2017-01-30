@@ -39,6 +39,7 @@ export default {
         minifyURLs: true
       },
       inject: true,
+      prodToken: 'Production!!' //EmbeddedJS
     }),
 
     new webpack.optimize.DedupePlugin(),

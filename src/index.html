@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
   </head>
   <body>
+    <% if (htmlWebpackPlugin.options.prodToken) { %>
+    <h2>'<%=htmlWebpackPlugin.options.prodToken%>'</h2>
+    <% } %>
     <h1>Users</h1>
     <table>
       <thead>
